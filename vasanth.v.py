@@ -1,0 +1,16 @@
+from tkinter import*
+root=Tk()
+root.title("BCA APPS")
+root.geometry("500x700")
+f1=Frame(root)
+f1.config(bg="red")
+f1.pack(fill=BOTH,expand=True)
+l1=Label(f1,text="ARITHMETIC OPERATION",bg="RED",fg="YELLOW",font=("Arial",25,"bold"))
+l1.pack()
+
+f2=Frame(root)
+f2.config(bg="pink")
+f2.pack(fill=BOTH,expand=True)
+l2=Label(f2,text="First Number")
+l2.pack()
+root.mainloop()
